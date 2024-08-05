@@ -1,0 +1,23 @@
+{
+    "name": "unespar/php_obj",
+    "authors": [
+        {
+            "name": "ArthurGuirro",
+            "email": "arthurguirro@gmail.com"
+        }
+    ],
+    "require": {
+        "league/plates": "^3.4",
+        "symfony/var-dumper": "^6.0",
+        "windwalker/renderer": "^4.0",
+        "spatie/db-dumper": "^3.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\":"app"
+        },
+        "files": [
+            "app/helpers/json.php"
+        ]
+    }
+}
