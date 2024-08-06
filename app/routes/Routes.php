@@ -13,7 +13,7 @@ class Routes
                 '/phpoo_routes/register'=>'RegisterController@store',
             ],
             'post'=>[
-                '/phpoo_routes/user/update/[0-9]+'=>'UserController@update',
+                '/phpoo_routes/user/update'=>'UserController@update',
             ]
         ];
     }

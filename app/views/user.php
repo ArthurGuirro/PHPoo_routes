@@ -2,9 +2,12 @@
 
 <h1>User</h1>
 
-<form action="/phpoo_routes/user/update/12" method="post">
+<form action="/phpoo_routes/user/update" method="post">
     <input type="text" name="firstName" value="Arthur"><br>
     <input type="text" name="lastName" value="Guirro"><br>
+
+    <?php echo getToken();?>
+
     <input type="text" name="email" value="arthurguirro@gmail.com"><br>
     <input type="password" name="password" value="123456"><br>
 
